@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Client ProjetTech IoT</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="../Interface_Web_Faircorp/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="../Interface_Web_Faircorp/css/mdb.min.css" rel="stylesheet">
+  <!-- Custom Styles -->
+  <link href="../Interface_Web_Faircorp/css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+
+<!-- header -->
+
+<div class="card">
+  <div class="header">
+    <div class="header-right">
+      <a class="active" href="api.html">Home</a>
+    </div>
+  </div>
+
+<!-- field containing the button the starts the building management -->
+
+  <div class="button_field">
+    <center>
+
+      <input type="button" value="Manage buildings" class="btn btn-success btn-rounded btn-sm my-0" onclick="get_buildings()"/>
+
+    </center>
+  </div>
+
+  <div class="selected_field">
+    <center>
+
+      <h5 id="selected_building">Selected Building :</h5>
+      <h5 id="selected_room">Selected Room :</h5>
+
+    </center>
+  </div>
+
+<!-- field containing the table that displays all the informations -->
+
+  <h3 class="card-header text-center font-weight-bold text-uppercase py-4" id="table_name"></h3>
+  <div class="card-body">
+    <div id="table" class="table-editable">
+      <span class="table-add float-right mb-3 mr-2"><a href="#!" class="text-success"><i class="fa fa-plus fa-2x"
+                                                                                         aria-hidden="true"></i></a></span>
+      <table class="table table-bordered table-responsive-md table-striped text-center">
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <!-- field containing the polls to create new elements -->
+    <div class="container mx-75" id="thiswill">
+
+</div>>
+
+<!-- SCRIPTS -->
+
+<!-- Main script for that builds the page  -->
+<script src="../Interface_Web_Faircorp/js/script.js"></script>
+
+<!-- JQuery -->
+<script type="text/javascript" src="../Interface_Web_Faircorp/js/jquery-3.3.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="../Interface_Web_Faircorp/js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="../Interface_Web_Faircorp/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="../Interface_Web_Faircorp/js/mdb.min.js"></script>
+
+</body>
+
+</html>
